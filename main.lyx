@@ -19,8 +19,10 @@
 %\setCJKfamilyfont{hei}{SimHei}
 \PassOptionsToPackage{no-math}{fontspec}
 \renewcommand\figurename{图}
+\renewcommand\tablename{表}
 
 \input{tex/preamble}
+\usepackage{lettrine}
 \end_preamble
 \options UTF8,nomath
 \use_default_options false
@@ -125,6 +127,32 @@ maketitle
 cleardoublepage
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "tex/copyright.tex"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cleardoublepage
+\end_layout
+
 \begin_layout Plain Layout
 
 
@@ -154,16 +182,6 @@ pagenumbering{Roman}
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "chap/copyright.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand input
 filename "chap/abstract.lyx"
 
 \end_inset

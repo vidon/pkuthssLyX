@@ -93,66 +93,111 @@
 \begin_body
 
 \begin_layout Chapter
-引言
+介绍
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:介绍"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-任何收存和保管本论文各种版本的单位和个人， 未经本论文作者同意，不得将本论文转借他人， 亦不得随意复制、抄录、拍照或以任何方式传播。 否则一旦引起有碍作者著作权
-之问题，将可能承担法律责任。
+本模板根据北京大学学位论文LaTeX模板pkuthss[]制作，作者只做了少量的移植、修改工作。.
+\begin_inset VSpace 1cm
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
+鉴于作者水平、精力有限，作者有如下声明：
+\end_layout
+
+\begin_layout Itemize
+作者无法保证本LyX模板设置与pkuthss完全一致，更无法随时与pkuthss最新版本保持同步；
+\end_layout
+
+\begin_layout Itemize
+作者无法保证本模板完全符合北京大学学位论文的格式要求，可能存在与要求格式不完全一致的地方；
+\end_layout
+
+\begin_layout Itemize
+作者不负责LyX教学，也不负责LyX查错；
+\end_layout
+
+\begin_layout Itemize
+作者欢迎任何人加入到本模板的维护工作中；
+\end_layout
+
+\begin_layout Itemize
+作者还没毕业。 
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+对于本模板的使用者，如果使用过程中遇到问题，作者有如下建议：
+\end_layout
+
+\begin_layout Itemize
+去看看pkuthss的文档；
+\end_layout
+
+\begin_layout Itemize
+去看看LyX的帮助文档，帮助菜单中包含两个中文帮助文档及若干个英文文档，很有用；
+\end_layout
+
+\begin_layout Itemize
+去Google；
+\end_layout
+
+\begin_layout Itemize
+去吃吃香锅，谈谈恋爱；
+\end_layout
+
+\begin_layout Itemize
+如果前面的方法都无功而返或者实在懒得看文档，一定要找作者解决，不给解决不罢休的话，那就找吧。
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+怎么找到作者？
+\end_layout
+
+\begin_layout Itemize
+访问项目的github主页
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://github.com/qinweilun/pkuthssLyX
+\end_layout
+
+\end_inset
+
+并提交issue；
+\end_layout
+
+\begin_layout Itemize
+给作者发邮件
+\begin_inset Flex URL
 status open
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename C:/Users/Alan/Desktop/fig/Ellipse25pcScanEz.png
-
-\end_inset
-
-
-\begin_inset Caption
-
-\begin_layout Plain Layout
-范德萨发
+qinweilun@pku.edu.cn
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-姐姐姐姐就急急急急急急急急急急急急急急急急急急急急急急急急急急急急急急急急急急急急急急急急急急急急急急急急
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Section
-呜呜呜呜呜呜
-\end_layout
-
-\begin_layout Subsection
-轻轻去去去去去去
+。
 \end_layout
 
 \end_body
